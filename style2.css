@@ -116,7 +116,7 @@ footer p {
 
 a:link {
     transition: all 0.3s ease;
-    color: rgb(0, 0, 0);
+    color: rgb(200, 200, 200);
     text-shadow: rgb(225, 65, 65) 3px 2px 3px;
     text-decoration: none;
 }
