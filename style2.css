@@ -1,0 +1,139 @@
+html {
+    font-family: 'Luxurious Roman';
+    /* font-family: 'Montserrat', sans-serif; */
+    color: wheat;
+}
+
+body {
+    margin: 0rem;
+    background-color: #1c1158;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url("Imagenes/relax titulo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: rgb(34, 29, 63);
+    padding: 8rem;
+    max-height: 8rem;
+    text-align: center;
+}
+
+#menu {
+    background-color: rgb(48, 48, 80);
+    float: right;
+    margin: 1rem 1rem 1rem 2rem;
+    border: 2px darkslategrey solid;
+    padding: 0rem 4rem 1rem 0rem;
+    border-radius: 10px;
+}
+
+#menu:hover {
+    transition: all 0.2s ease;
+    box-shadow: rgb(0, 0, 0) 0px 0px 4px;
+}
+
+#menu h2 {
+    text-align: center;
+}
+
+.sinPunto {
+    list-style: none;
+}
+
+#users {
+    background-color: rgb(48, 48, 80);
+    margin: 1rem auto;
+    border: rgb(64, 148, 218) 1px solid;
+    padding: 0rem 1rem 0rem 1rem;
+    /* display: inline-block; */
+
+
+    min-width: 720px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#users:hover {
+    transition: all 0.2s ease;
+    box-shadow: rgb(0, 0, 0) 0px 0px 4px;
+}
+
+#escrito {
+    background-color: rgb(48, 48, 80);
+    min-width: 800px;
+    width: 1200px;
+    margin:4rem;
+    border: teal 1px solid;
+    padding: 0rem 5rem 1rem 3rem;
+    text-align: justify;
+}
+
+#tab {
+    margin: 0 auto;
+    min-width: 1000px;
+    border-collapse: collapse;
+    
+}
+
+#tab th, #tab td {
+    border: 1px solid #999;
+    
+}
+
+#tab th {
+    background-color: rgb(48, 48, 80);
+}
+
+#tab td:hover {
+    background-color: rgb(33, 69, 148);
+    box-shadow: rgb(255, 255, 255) 0px 0px 8px;
+}
+
+#interes {
+    background-color: rgb(48, 48, 80);
+    margin: 1rem;
+    border: teal 1px solid;
+    padding: 1rem 4rem;
+    display: table;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(48, 48, 80);
+    margin: 0rem;
+    padding: 2rem 4rem;
+    min-width: 90%;
+    display: block;
+}
+
+footer p {
+    float: right;
+}
+
+a:link {
+    transition: all 0.3s ease;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(225, 65, 65) 3px 2px 3px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(204, 154, 15);
+    text-shadow: rgb(236, 32, 32) 3px 2px 3px;
+}
+
+a:hover {
+    color: rgb(172, 0, 158);
+    text-shadow: rgb(78, 20, 20) 1px 1px 2px;
+    cursor: pointer;
+}
+
+a:active {
+    color: rgb(240, 255, 23);
+    text-shadow: rgb(0, 0, 0) -1px -1px 3px;
+    cursor: pointer;
+}
